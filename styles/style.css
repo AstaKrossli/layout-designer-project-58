@@ -13,3 +13,74 @@ body{
     line-height: 1.6em;
     width: 1110px;
 }
+
+h1,h2,h3{
+    line-height: 1.2em;
+    font-family: 'Neucha';
+}
+
+h1{
+    font-size: 72px;
+font-weight: 400;
+}
+h2{
+    font-size: 60px;
+}
+h3{
+    font-size: 34px;
+}
+
+header::before{
+    content: url(../images/background.png);
+   
+    background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+  position: absolute;
+}
+
+.h1-header{
+    color: #FE8A02;
+
+}
+
+
+.header{
+    background-color: #f5f4f0;
+    display: block;
+    position: relative;
+}
+
+
+.main-img{
+    width: 1110px;
+    position: absolute;
+    height: 525px;
+    top:-55px;
+    right: -285px;
+}
+.text-block{
+    display: flex;
+    margin-top: 250px;
+}
+.text-block1{
+    flex: 50%;
+    margin-right: 30px;
+}
+.text-block2{
+    flex: 50%;
+}
+.btn{
+    position: absolute;
+    display:block;
+
+    margin-top: 20px;
+  padding: 12px 24px;
+  background:#FE8A02;
+  color: #FFFFFF;
+  text-decoration:none;
+  font-size:16px;
+  text-align: center;
+  font-weight: 700;
+
+}
