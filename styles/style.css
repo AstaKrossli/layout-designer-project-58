@@ -20,11 +20,12 @@ h1,h2,h3{
 }
 
 h1{
-    font-size: 72px;
+font-size: 72px;
 font-weight: 400;
 }
 h2{
     font-size: 60px;
+    font-weight: 400;
 }
 h3{
     font-size: 34px;
@@ -83,4 +84,16 @@ header::before{
   text-align: center;
   font-weight: 700;
 
+}
+
+.content_1{
+    margin-top: 200px;
+    text-align: center;
+ 
+}
+
+.content_video{
+    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+    width: 919px;
+    height: 517px;
 }
