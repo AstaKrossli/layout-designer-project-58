@@ -20,6 +20,7 @@ h4 {
   margin: 0;
   padding: 0;
   font-weight: inherit;
+  z-index: 1;
 }
 
 a {
@@ -80,7 +81,9 @@ body{
     overflow-x: hidden;
     background-color: var(--light);
 }
-
+.bg_image {
+  position: relative;
+}
 
 
   .bg_image::before {
@@ -100,6 +103,9 @@ body{
     min-height: 900px;
     margin: 0 auto;
     padding: 100px 0;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   }
   
   .header_image{
