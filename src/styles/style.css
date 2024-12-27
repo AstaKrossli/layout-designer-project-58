@@ -78,6 +78,7 @@ body{
     color: #2A2626;
     margin: 0 auto;
     padding: 0;
+    width: 100%;
     overflow-x: hidden;
     background-color: var(--light);
 }
