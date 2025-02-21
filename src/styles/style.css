@@ -55,7 +55,7 @@ h3{
   background-size: cover;
   opacity: 0.1;
   content: "";
-
+  z-index: -1;
  
 
 }
