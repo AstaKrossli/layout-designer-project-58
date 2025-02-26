@@ -79,14 +79,17 @@ header{
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.5;
+  opacity: 0.1;
   content: "";
   z-index: -2;
 }
 
 
 .container{
-  width: 1110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1110px;
   margin: 0 auto;
   padding: 100px 0;
   position: relative;
@@ -103,16 +106,22 @@ header{
 .header-content{
   display: flex;
   gap: 30px;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 100px 0;
   justify-content: center;
+
 }
 
 .header-content div {
   flex-grow: 1;
   flex-basis: 0;
   
+  
 }
 .header-content p{
   margin-top: 0;
+  
 }
 
 .btn{
@@ -130,7 +139,10 @@ margin-top: 20px;
 }
 
 
-
+.flex-width-50{
+  width: 50%;
+  
+}
 
 
 
