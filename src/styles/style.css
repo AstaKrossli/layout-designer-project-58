@@ -39,6 +39,7 @@ body{
   color: var(--dark);
   margin: 0 auto;
   background-color: var(--light);
+  overflow-x: hidden;
 }
 
 
@@ -66,7 +67,7 @@ h3{
 .header-h{
 color: var(--primary);
 }
-header {
+header{
   position: relative;
 }
 .bg-image::before{
@@ -78,7 +79,7 @@ header {
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.1;
+  opacity: 0.5;
   content: "";
   z-index: -2;
 }
@@ -102,6 +103,7 @@ header {
 .header-content{
   display: flex;
   gap: 30px;
+  justify-content: center;
 }
 
 .header-content div {
