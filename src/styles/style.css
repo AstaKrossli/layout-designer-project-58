@@ -57,23 +57,19 @@ h3{
   opacity: 0.1;
   content: "";
   z-index: -1;
- 
-
 }
 
-.header{
-  position: relative;
-  }
 
 .container{
-  width: 1110px;
+  position: relative;
+width: 1110px;
 margin: 0 auto;
-padding: 100px 0;
+padding-top: 55px;
 }
 
 .img{
   position: absolute;
-  top:-45px;
+  top:55px;
   right: -270px;
   height: 525px;
   z-index: -1;
@@ -84,10 +80,9 @@ padding: 100px 0;
 }
 .header-text{
   display: flex;
-
   margin: 0 auto;
   gap: 30px;
-
+  padding: 130px 0;
 }
 
 .header-col{
@@ -98,7 +93,7 @@ padding: 100px 0;
 .btn{
   
   background-color:var(--primary);
-  padding: 12px 24px;
+  padding: 14px 24px;
   color:var(--white);
   font-weight: 700;
   display: inline-block;
