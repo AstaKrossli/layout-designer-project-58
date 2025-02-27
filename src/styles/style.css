@@ -47,7 +47,7 @@ body{
 h1,h2,h3,h4{
   line-height: 1.2em;
   font-family: 'Neucha';
-
+  font-weight: 400;
 }
 
 h1{
@@ -93,6 +93,7 @@ header{
   max-width: 1110px;
   margin: 0 auto;
   padding: 100px 0;
+
   position: relative;
   
 }
@@ -136,21 +137,48 @@ header{
 text-decoration: none;
 margin-top: 20px;
 }
-.btn:hover{
+.btn:hover {
   background-color:var(--orange-dark);
 }
 
 
-.flex-width-50{
+.flex-width-50 {
   width: 50%;
-  
+}
+
+main{
+
+}
+.heading-video{
+
+}
+.video-content {
+background-color: var(--white);
+margin: 0 auto;
+text-align: center;
+
 }
 
 
 
+.container-video{
+padding: 0;
+position: relative;
+bottom: -100px;
+}
 
+video{
+  width: 919px;
+  height: 517px;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  margin: 0 auto;
 
+  
+}
 
+.navigation{
+  background-color: var(--primary-dark);
+}
 
 
 
