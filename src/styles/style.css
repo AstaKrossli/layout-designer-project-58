@@ -69,6 +69,7 @@ color: var(--primary);
 }
 header{
   position: relative;
+  overflow: hidden;
 }
 .bg-image::before{
   width: 100%;
@@ -93,6 +94,7 @@ header{
   margin: 0 auto;
   padding: 100px 0;
   position: relative;
+  
 }
  
 .header-img{
