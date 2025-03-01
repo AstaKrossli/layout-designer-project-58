@@ -191,10 +191,29 @@ text-align: center;
 
 .navigation{
   background-color: var(--primary-dark);
+  padding-top: 200px;
 }
 
+.nav{
+  display: flex;
 
+  gap: 30px;
+  width: 1110px;
+  margin: 0 auto;
+  
+}
 
+.flex-el{
+width: 350px;
+  background-color: var(--light);
+  padding: 24px;
+
+}
+
+.nav-h {
+font-size: 52px;
+
+}
 
 
 
