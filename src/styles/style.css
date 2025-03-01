@@ -29,7 +29,9 @@ h4 {
   padding: 0;
   z-index: 1;
 }
-
+h3{
+  color: var(--primary);
+}
 
 
 a {
@@ -192,29 +194,59 @@ text-align: center;
 .navigation{
   background-color: var(--primary-dark);
   padding-top: 200px;
+  
 }
 
 .nav{
   display: flex;
-
   gap: 30px;
-  width: 1110px;
   margin: 0 auto;
-  
+  justify-content: center;
 }
+
+.nav-bottom{
+  display: flex;
+  gap: 30px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.nav-bottom div{
+  height:300px ;
+}
+
 
 .flex-el{
-width: 350px;
+  width: 302px;
+height: 275px;
   background-color: var(--light);
-  padding: 24px;
-
+padding: 24px;
+margin-bottom: 20px;
 }
+
+
+
+.flex-el-title{
+  width: 350px;
+  display: block;
+ 
+}
+.text-white{
+  color: #fff;
+}
+
 
 .nav-h {
 font-size: 52px;
-
 }
 
+.number-nav{
+  padding: 0;
+  margin: 0;
+font-size: 64px;
+padding-bottom: 40px;
+  font-family:  Neucha, sans-serif;
+  line-height: 1;
+}
 
 
 
