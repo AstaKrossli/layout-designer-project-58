@@ -182,6 +182,7 @@ text-align: center;
 
 
 .container-video{
+  
   padding: 0;
   position: relative;
   bottom: -100px;
@@ -196,11 +197,12 @@ text-align: center;
   border: none;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   padding: 0;
+
 }
 
 .navigation{
   background-color: var(--primary-dark);
-  padding-top: 200px;
+  padding-top: 195px;
   
 }
 
@@ -209,6 +211,8 @@ text-align: center;
   gap: 30px;
   margin: 0 auto;
   justify-content: center;
+
+
 }
 
 .nav-bottom{
@@ -216,6 +220,7 @@ text-align: center;
   gap: 30px;
   margin: 0 auto;
   justify-content: center;
+  padding-bottom: 100px;
 }
 .nav-bottom div{
   height:300px ;
